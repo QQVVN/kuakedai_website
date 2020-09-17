@@ -132,6 +132,9 @@ html {
                 @include clearfix;
                 .l {
                     display: inline-block;
+                    input::placeholder {
+                        width: 11rem;
+                    }
                     input {
                         font-size: 1rem;
                         display: block;
@@ -141,6 +144,7 @@ html {
                         &:nth-of-type(2) {
                             margin-top: 8px;
                         }
+                        
                     }
                 }
                 .r {
