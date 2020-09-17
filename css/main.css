@@ -57,6 +57,16 @@ input {
   appearance: none;
 }
 
+textarea,
+input[type=text],
+input[type=button],
+input[type=submit],
+input[type=reset],
+input[type=search] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 html {
   font-family: Microsoft JhengHei;
   background: #f6dbb4;

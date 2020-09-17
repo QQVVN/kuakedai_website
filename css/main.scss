@@ -13,9 +13,18 @@
 }
 
 input {
-    -webkit-appearance: none;  /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
-    -moz-appearance: none;     /* FireFox */
+    -webkit-appearance: none; /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+    -moz-appearance: none; /* FireFox */
     appearance: none;
+}
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="search"] {
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 html {
@@ -57,7 +66,6 @@ html {
             height: 3.688rem;
             margin-top: 9%;
             left: 36%;
-            
         }
         .br {
             width: 6.5rem;
@@ -206,4 +214,3 @@ html {
         z-index: -20;
     }
 }
-
