@@ -49,6 +49,8 @@ table {
 }
 
 input {
+  border: none;
+  border-radius: 0;
   -webkit-appearance: none;
 }
 
@@ -160,6 +162,9 @@ html {
 .container .box .input .bottom .l {
   display: inline-block;
 }
+.container .box .input .bottom .l input::-webkit-input-placeholder {
+  width: 13rem;
+}
 .container .box .input .bottom .l input {
   font-size: 1rem;
   display: block;
@@ -169,9 +174,6 @@ html {
 }
 .container .box .input .bottom .l input:nth-of-type(2) {
   margin-top: 8px;
-}
-.container .box .input .bottom .l input::placeholder {
-  width: 13.7rem;
 }
 .container .box .input .bottom .r {
   float: right;

@@ -13,6 +13,8 @@
 }
 
 input {
+    border: none;
+    border-radius: 0;
     -webkit-appearance: none;
 }
 
@@ -130,6 +132,12 @@ html {
                 @include clearfix;
                 .l {
                     display: inline-block;
+                    // &::placeholder {
+                    //     width: 13.7rem;
+                    // }
+                    input::-webkit-input-placeholder {
+                        width: 13rem;
+                    }
                     input {
                         font-size: 1rem;
                         display: block;
@@ -139,11 +147,7 @@ html {
                         &:nth-of-type(2) {
                             margin-top: 8px;
                         }
-                        &::placeholder {
-                            width: 13.7rem;
-                        }
                     }
-                    
                 }
                 .r {
                     float: right;
