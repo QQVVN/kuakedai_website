@@ -133,6 +133,10 @@ html {
                 .l {
                     display: inline-block;
                     input {
+                        @media screen and (-webkit-min-device-pixel-rato: 0) {
+                            width: 20rem;
+                            height: 5rem;
+                        }
                         // font-size: 1rem;
                         display: block;
                         width: 14rem;
@@ -141,7 +145,6 @@ html {
                         &:nth-of-type(2) {
                             margin-top: 8px;
                         }
-                        
                     }
                 }
                 .r {
