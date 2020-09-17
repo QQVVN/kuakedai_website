@@ -116,17 +116,18 @@ html {
 .container .box .input {
   position: absolute;
   margin-top: 31%;
-  right: 4.5%;
-  width: 24.688rem;
+  right: 6.5%;
+  width: 368px;
   animation: bounceInUp;
   animation-duration: 2s;
 }
 .container .box .input .top {
+  display: inline-block;
   margin-bottom: 10px;
 }
 .container .box .input .top .n,
 .container .box .input .top .o {
-  display: inline-block;
+  float: left;
   text-align: center;
   width: 11.25rem;
   line-height: 3.5rem;
@@ -136,6 +137,7 @@ html {
   box-shadow: 1px 1px 5px 0px #feeccc inset;
 }
 .container .box .input .top .n {
+  height: 56px;
   margin-right: 7px;
   color: #2c1c09;
   background: linear-gradient(to top, #834200 0%, #e6c290 11%, #7a4100 28%, #c0945f 47%, #e6c290 66%, #fff0da 84%, #d4ae88 100%);
@@ -160,7 +162,9 @@ html {
   clear: both;
 }
 .container .box .input .bottom .l {
-  display: inline-block;
+  float: left;
+  width: 220px;
+  margin-right: 13px;
 }
 .container .box .input .bottom .l input {
   display: block;
@@ -172,11 +176,9 @@ html {
   margin-top: 19px;
 }
 .container .box .input .bottom .r {
-  float: right;
+  float: left;
   position: relative;
-  text-align: center;
   font-size: 1.5rem;
-  right: 6%;
   cursor: pointer;
   color: #29153b;
 }
