@@ -132,17 +132,11 @@ html {
                 @include clearfix;
                 .l {
                     display: inline-block;
-                    // &::placeholder {
-                    //     width: 13.7rem;
-                    // }
-                    input::-webkit-input-placeholder {
-                        width: 13rem;
-                    }
                     input {
                         font-size: 1rem;
                         display: block;
-                        width: 13.7rem;
-                        height: 2.12rem;
+                        width: 14rem;
+                        height: 2.35rem;
                         border-radius: 3px;
                         &:nth-of-type(2) {
                             margin-top: 8px;

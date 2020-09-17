@@ -162,14 +162,11 @@ html {
 .container .box .input .bottom .l {
   display: inline-block;
 }
-.container .box .input .bottom .l input::-webkit-input-placeholder {
-  width: 13rem;
-}
 .container .box .input .bottom .l input {
   font-size: 1rem;
   display: block;
-  width: 13.7rem;
-  height: 2.12rem;
+  width: 14rem;
+  height: 2.35rem;
   border-radius: 3px;
 }
 .container .box .input .bottom .l input:nth-of-type(2) {
