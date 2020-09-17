@@ -12,6 +12,16 @@
     *zoom: 1;
 }
 
+input {
+    color: inherit;
+    font: inherit; 
+    margin: 0; 
+    line-height: normal;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 0;
+}
+
 html {
     font-family: Microsoft JhengHei;
     background: #f6dbb4;
@@ -130,7 +140,7 @@ html {
                     margin-right: 14px;
                     input {
                         display: block;
-                        width: 209px;
+                        width: 213px;
                         height: 2rem;
                         border-radius: 3px;
                         &::placeholder {
@@ -138,7 +148,7 @@ html {
                         }
                     }
                     .t {
-                        margin-bottom: 13px;
+                        margin-bottom: 15px;
                         padding-bottom: 0;
                     }
                 }
