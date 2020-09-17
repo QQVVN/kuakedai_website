@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,6 +47,14 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+  -moz-appearance: none;
+  /* FireFox */
+  appearance: none;
 }
 
 html {
@@ -159,10 +168,8 @@ html {
 .container .box .input .bottom .l input {
   font-size: 1.25rem;
   display: block;
-  -webkit-width: 219px;
-  width: 219px;
-  -webkit-height: 33px;
-  height: 33px;
+  width: 13.7rem;
+  height: 2.12rem;
   border-radius: 3px;
 }
 .container .box .input .bottom .l input:nth-of-type(2) {
@@ -196,7 +203,7 @@ html {
   margin-top: 55%;
   right: 6.8%;
   animation: bounceInUp;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 .container .bg {
   position: absolute;
