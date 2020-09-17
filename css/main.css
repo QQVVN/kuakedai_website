@@ -165,11 +165,11 @@ html {
 .container .box .input .bottom .l input {
   display: block;
   width: 13.5rem;
-  height: 2.1rem;
+  height: 2rem;
   border-radius: 3px;
 }
 .container .box .input .bottom .l input:nth-of-type(2) {
-  margin-top: 16px;
+  margin-top: 19px;
 }
 .container .box .input .bottom .r {
   float: right;
