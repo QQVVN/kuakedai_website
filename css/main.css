@@ -48,12 +48,6 @@ table {
   border-spacing: 0;
 }
 
-input {
-  border: none;
-  border-radius: 0;
-  -webkit-appearance: none;
-}
-
 html {
   font-family: Microsoft JhengHei;
   background: #f6dbb4;
@@ -117,13 +111,13 @@ html {
   position: absolute;
   margin-top: 31%;
   right: 6.5%;
-  width: 368px;
+  width: 367px;
   animation: bounceInUp;
   animation-duration: 2s;
 }
 .container .box .input .top {
   height: 64px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 .container .box .input .top .n,
 .container .box .input .top .o {
@@ -161,8 +155,8 @@ html {
 }
 .container .box .input .bottom .l {
   float: left;
-  width: 220px;
-  margin-right: 13px;
+  width: 224px;
+  margin-right: 8px;
 }
 .container .box .input .bottom .l input {
   display: block;
@@ -173,8 +167,8 @@ html {
 .container .box .input .bottom .l input::placeholder {
   line-height: normal;
 }
-.container .box .input .bottom .l input:nth-of-type(2) {
-  margin-top: 19px;
+.container .box .input .bottom .l input:nth-of-type(1) {
+  margin-bottom: 13px;
   padding-bottom: 0;
 }
 .container .box .input .bottom .r {
