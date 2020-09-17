@@ -198,7 +198,6 @@ html {
 }
 .container .bg {
   position: absolute;
-  top: 0;
   background: url(../images/bg.png) no-repeat top center;
   background-size: 1920px;
   width: 100%;
