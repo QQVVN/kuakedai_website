@@ -165,12 +165,12 @@ html {
 }
 .container .box .input .bottom .l {
   float: left;
-  width: 217px;
-  margin-right: 14px;
+  width: 222px;
+  margin-right: 10px;
 }
 .container .box .input .bottom .l input {
   display: block;
-  width: 213px;
+  width: 217px;
   height: 2rem;
   border-radius: 3px;
 }
