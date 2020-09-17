@@ -130,7 +130,9 @@ html {
                     input {
                         font-size: 1.25rem;
                         display: block;
+                        -webkit-width: 219px;
                         width: 13.7rem;
+                        -webkit-height: 33px;
                         height: 2.12rem;
                         border-radius: 3px;
                         &:nth-of-type(2) {
