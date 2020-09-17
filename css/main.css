@@ -162,11 +162,7 @@ html {
 .container .box .input .bottom .l {
   display: inline-block;
 }
-.container .box .input .bottom .l input::placeholder {
-  width: 11rem;
-}
 .container .box .input .bottom .l input {
-  font-size: 1rem;
   display: block;
   width: 14rem;
   height: 2.35rem;

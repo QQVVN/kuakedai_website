@@ -132,11 +132,8 @@ html {
                 @include clearfix;
                 .l {
                     display: inline-block;
-                    input::placeholder {
-                        width: 11rem;
-                    }
                     input {
-                        font-size: 1rem;
+                        // font-size: 1rem;
                         display: block;
                         width: 14rem;
                         height: 2.35rem;
