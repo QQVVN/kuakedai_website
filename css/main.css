@@ -74,7 +74,7 @@ html {
   background: url(../images/logo.png) no-repeat;
   background-size: cover;
   animation: bounceInLeft;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 .container .box .bl,
 .container .box .br {
@@ -82,7 +82,7 @@ html {
   background: url(../images/ball.png) no-repeat;
   background-size: 100%;
   animation: bounceInRight;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 .container .box .bl {
   width: 3.5rem;
@@ -105,7 +105,7 @@ html {
   background: url(../images/logot.png) no-repeat;
   background-size: cover;
   animation: bounceInUp;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 .container .box .input {
   position: absolute;
@@ -113,7 +113,7 @@ html {
   right: 4.5%;
   width: 24.688rem;
   animation: bounceInUp;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 .container .box .input .top {
   margin-bottom: 10px;
