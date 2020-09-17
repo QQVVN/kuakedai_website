@@ -133,7 +133,7 @@ html {
                 .l {
                     display: inline-block;
                     input {
-                        @media screen and (-webkit-min-device-pixel-rato: 0) {
+                        @media screen and (-webkit-high-contrast: active),(-webkit-high-contrast: none) {
                             width: 20rem;
                             height: 5rem;
                         }

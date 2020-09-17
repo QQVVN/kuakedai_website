@@ -168,7 +168,7 @@ html {
   height: 2.35rem;
   border-radius: 3px;
 }
-@media screen and (-webkit-min-device-pixel-rato: 0) {
+@media screen and (-webkit-high-contrast: active), (-webkit-high-contrast: none) {
   .container .box .input .bottom .l input {
     width: 20rem;
     height: 5rem;
