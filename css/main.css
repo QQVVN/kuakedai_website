@@ -167,7 +167,7 @@ html {
 .container .box .input .bottom .l input::placeholder {
   line-height: normal;
 }
-.container .box .input .bottom .l input:nth-of-type(1) {
+.container .box .input .bottom .l .t {
   margin-bottom: 13px;
   padding-bottom: 0;
 }
