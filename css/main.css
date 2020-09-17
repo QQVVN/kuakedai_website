@@ -164,18 +164,12 @@ html {
 }
 .container .box .input .bottom .l input {
   display: block;
-  width: 14rem;
-  height: 2.35rem;
+  width: 13.5rem;
+  height: 2.1rem;
   border-radius: 3px;
 }
-@media screen and (-webkit-high-contrast: active), (-webkit-high-contrast: none) {
-  .container .box .input .bottom .l input {
-    width: 20rem;
-    height: 5rem;
-  }
-}
 .container .box .input .bottom .l input:nth-of-type(2) {
-  margin-top: 8px;
+  margin-top: 16px;
 }
 .container .box .input .bottom .r {
   float: right;
