@@ -126,16 +126,13 @@ html {
                 @include clearfix;
                 .l {
                     float: left;
-                    width: 224px;
-                    margin-right: 8px;
+                    width: 217px;
+                    margin-right: 14px;
                     input {
                         display: block;
-                        width: 13.5rem;
+                        width: 209px;
                         height: 2rem;
                         border-radius: 3px;
-                        // ::-webkit-input-placeholder {
-                        //     line-height: normal;
-                        // }
                         &::placeholder {
                             line-height: normal;
                         }
