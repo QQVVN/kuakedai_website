@@ -1,11 +1,26 @@
 @import "_reset_css.scss";
 
+@mixin clearfix {
+    &:after,
+    &:before {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    *zoom: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
 html {
     font-family: Microsoft JhengHei;
     background: #f6dbb4;
     min-width: 72.625rem;
     height: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .container {
@@ -28,13 +43,120 @@ html {
             background-size: cover;
         }
         .logot {
-            width: 26rem;
-            height: 12.5rem;
+            width: 30rem;
+            height: 14.5rem;
             position: absolute;
-            margin-top: 6%;
+            margin-top: 4%;
             right: 8%;
             background: url(../images/logot.png) no-repeat;
             background-size: cover;
+        }
+        .input {
+            position: absolute;
+            margin-top: 26.5%;
+            right: 12.5%;
+            .top {
+                margin-bottom: 10px;
+                .n,
+                .o {
+                    display: inline-block;
+                    text-align: center;
+                    width: 11.875rem;
+                    height: 3.75rem;
+                    line-height: 3.75rem;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    font-size: 1.5rem;
+                    box-shadow: 1px 1px 5px 0px #feeccc inset;
+                }
+                .n {
+                    margin-right: 10px;
+                    color: #2c1c09;
+                    background: linear-gradient(
+                        to top,
+                        #834200 0%,
+                        #e6c290 11%,
+                        #7a4100 28%,
+                        #c0945f 47%,
+                        #e6c290 66%,
+                        #fff0da 84%,
+                        #d4ae88 100%
+                    );
+                    &:active,
+                    :hover {
+                        background: linear-gradient(
+                            to top,
+                            #af5801 0%,
+                            #ffd8a1 11%,
+                            #aa5b01 28%,
+                            #e7b373 47%,
+                            #fdd69f 66%,
+                            #fff0da 84%,
+                            #f7ca9e 100%
+                        );
+                    }
+                }
+                .o {
+                    color: #fff;
+                    background: linear-gradient(to top, #fcedcd 0%, #e2bd8f 6%, #9e6a21 49%, #793a00 100%);
+                }
+            }
+            .bottom {
+                width: 100%;
+                @include clearfix;
+                .l {
+                    display: inline-block;
+                    input {
+                        font-size: 1.3rem;
+                        display: block;
+                        width: 15rem;
+                        height: 2.5rem;
+                        border-radius: 3px;
+                        &:nth-of-type(2) {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+                .r {
+                    float: right;
+                    position: relative;
+                    width: 140px;
+                    height: 88px;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                    p {
+                        padding: 20px;
+                        border-radius: 3px;
+                        box-shadow: 1px 1px 5px 0px #fff inset;
+                        background: linear-gradient(
+                            to top,
+                            #341c7f 0%,
+                            #b870ef 13%,
+                            #8055bc 26%,
+                            #b96fe7 40%,
+                            #fac0ff 61%,
+                            #e1f8ff 78%,
+                            #b0ead6 84%,
+                            #8055bc 100%
+                        );
+                        &:active,
+                        :hover {
+                            background: linear-gradient(
+                                to top,
+                                #4726aa 0%,
+                                #c578ff 13%,
+                                #9e6ae7 26%,
+                                #cc7bff 40%,
+                                #fac0ff 61%,
+                                #e1f8ff 78%,
+                                #bdfce6 84%,
+                                #a16ceb 100%
+                            );
+                        }
+                    }
+                }
+            }
         }
     }
     .bg {
