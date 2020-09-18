@@ -19,7 +19,7 @@ input {
     line-height: normal;
     -webkit-appearance: none;
     border-radius: 0;
-    padding: 0;
+    padding: 5px 10px;
 }
 
 html {
@@ -103,9 +103,6 @@ html {
                     cursor: pointer;
                     font-size: 24px;
                     box-shadow: 1px 1px 5px 0px #feeccc inset;
-                }
-                .n {
-                    margin-right: 14px;
                     color: #2c1c09;
                     background: linear-gradient(
                         to top,
@@ -117,23 +114,15 @@ html {
                         #fff0da 84%,
                         #d4ae88 100%
                     );
+                    &:hover,
                     &:active,
-                    &:hover {
-                        background: linear-gradient(
-                            to top,
-                            #af5801 0%,
-                            #ffd8a1 11%,
-                            #aa5b01 28%,
-                            #e7b373 47%,
-                            #fdd69f 66%,
-                            #fff0da 84%,
-                            #f7ca9e 100%
-                        );
+                    &.active {
+                        color: #fff;
+                        background: linear-gradient(to top, #fcedcd 0%, #e2bd8f 6%, #9e6a21 49%, #793a00 100%);
                     }
                 }
-                .o {
-                    color: #fff;
-                    background: linear-gradient(to top, #fcedcd 0%, #e2bd8f 6%, #9e6a21 49%, #793a00 100%);
+                .n {
+                    margin: 0 13px 0 0;
                 }
             }
             .bottom {
@@ -145,16 +134,16 @@ html {
                     margin-right: 13px;
                     input {
                         display: block;
-                        width: 218px;
-                        height: 32px;
+                        width: 198px;
+                        height: 22px;
                         border-radius: 3px;
+                        outline: none;
                         &::placeholder {
                             line-height: normal;
                         }
                     }
                     .t {
                         margin-bottom: 15px;
-                        padding-bottom: 0;
                     }
                 }
                 .r {
@@ -196,7 +185,7 @@ html {
                         position: absolute;
                         left: 50%;
                         top: 50%;
-                        transform: translate(-50%,-50%);
+                        transform: translate(-50%, -50%);
                     }
                 }
             }

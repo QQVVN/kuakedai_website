@@ -55,7 +55,7 @@ input {
   line-height: normal;
   -webkit-appearance: none;
   border-radius: 0;
-  padding: 0;
+  padding: 5px 10px;
 }
 
 html {
@@ -143,18 +143,18 @@ html {
   cursor: pointer;
   font-size: 24px;
   box-shadow: 1px 1px 5px 0px #feeccc inset;
-}
-.container .box .input .top .n {
-  margin-right: 14px;
   color: #2c1c09;
   background: linear-gradient(to top, #834200 0%, #e6c290 11%, #7a4100 28%, #c0945f 47%, #e6c290 66%, #fff0da 84%, #d4ae88 100%);
 }
-.container .box .input .top .n:active, .container .box .input .top .n:hover {
-  background: linear-gradient(to top, #af5801 0%, #ffd8a1 11%, #aa5b01 28%, #e7b373 47%, #fdd69f 66%, #fff0da 84%, #f7ca9e 100%);
-}
-.container .box .input .top .o {
+.container .box .input .top .n:hover, .container .box .input .top .n:active, .container .box .input .top .n.active,
+.container .box .input .top .o:hover,
+.container .box .input .top .o:active,
+.container .box .input .top .o.active {
   color: #fff;
   background: linear-gradient(to top, #fcedcd 0%, #e2bd8f 6%, #9e6a21 49%, #793a00 100%);
+}
+.container .box .input .top .n {
+  margin: 0 13px 0 0;
 }
 .container .box .input .bottom {
   width: 367px;
@@ -174,16 +174,16 @@ html {
 }
 .container .box .input .bottom .l input {
   display: block;
-  width: 218px;
-  height: 32px;
+  width: 198px;
+  height: 22px;
   border-radius: 3px;
+  outline: none;
 }
 .container .box .input .bottom .l input::placeholder {
   line-height: normal;
 }
 .container .box .input .bottom .l .t {
   margin-bottom: 15px;
-  padding-bottom: 0;
 }
 .container .box .input .bottom .r {
   width: 130px;
