@@ -193,6 +193,7 @@ html {
             }
         }
         .ib {
+            display: none;
             position: absolute;
             width: 23.1rem;
             height: 4.688rem;
@@ -202,16 +203,11 @@ html {
             right: 6.7%;
             animation: bounceInUp;
             animation-duration: 2s;
-            @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
-                display: none;
+            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+                display: block;
             }
             @media screen and (min--moz-device-pixel-ratio: 0) {
                 display: block;
-            }
-            @media screen {
-                @media (min-width: 0px) {
-                    display: none;
-                }
             }
         }
     }
