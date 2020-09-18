@@ -40,8 +40,8 @@ html {
         width: 1000px;
         margin: 0 auto;
         .logo {
-            width: 32.063rem;
-            height: 41.375rem;
+            width: 513px;
+            height: 662px;
             position: absolute;
             margin-top: 9.5%;
             background: url(../images/logo.png) no-repeat;
@@ -58,20 +58,20 @@ html {
             animation-duration: 2s;
         }
         .bl {
-            width: 3.5rem;
-            height: 3.688rem;
+            width: 56px;
+            height: 69px;
             margin-top: 9%;
             left: 36%;
         }
         .br {
-            width: 6.5rem;
-            height: 6.688rem;
+            width: 104px;
+            height: 107px;
             margin-top: 24.55%;
             right: -6.5%;
         }
         .logot {
-            width: 28rem;
-            height: 13.5rem;
+            width: 448px;
+            height: 216px;
             position: absolute;
             margin-top: 6%;
             right: 3%;
@@ -96,10 +96,12 @@ html {
                 .o {
                     float: left;
                     text-align: center;
+                    width: 176px;
+                    height: 65px;
+                    line-height: 65px;
                     border-radius: 3px;
                     cursor: pointer;
-                    padding: 20px 40px;
-                    font-size: 1.5rem;
+                    font-size: 24px;
                     box-shadow: 1px 1px 5px 0px #feeccc inset;
                 }
                 .n {
@@ -116,7 +118,7 @@ html {
                         #d4ae88 100%
                     );
                     &:active,
-                    :hover {
+                    &:hover {
                         background: linear-gradient(
                             to top,
                             #af5801 0%,
@@ -140,11 +142,11 @@ html {
                 .l {
                     float: left;
                     width: 223px;
-                    margin-right: 9px;
+                    margin-right: 13px;
                     input {
                         display: block;
                         width: 218px;
-                        height: 2rem;
+                        height: 32px;
                         border-radius: 3px;
                         &::placeholder {
                             line-height: normal;
@@ -156,49 +158,53 @@ html {
                     }
                 }
                 .r {
-                    width: 134px;
+                    width: 130px;
+                    height: 87px;
                     float: left;
                     position: relative;
-                    font-size: 1.5rem;
+                    font-size: 24px;
                     cursor: pointer;
                     color: #29153b;
-                    p {
-                        padding: 20px 43px;
-                        border-radius: 3px;
-                        box-shadow: 1px 1px 5px 0px #fff inset;
+                    border-radius: 3px;
+                    box-shadow: 1px 1px 5px 0px #fff inset;
+                    background: linear-gradient(
+                        to top,
+                        #341c7f 0%,
+                        #b870ef 13%,
+                        #8055bc 26%,
+                        #b96fe7 40%,
+                        #fac0ff 61%,
+                        #e1f8ff 78%,
+                        #b0ead6 84%,
+                        #8055bc 100%
+                    );
+                    &:active,
+                    &:hover {
                         background: linear-gradient(
                             to top,
-                            #341c7f 0%,
-                            #b870ef 13%,
-                            #8055bc 26%,
-                            #b96fe7 40%,
+                            #4726aa 0%,
+                            #c578ff 13%,
+                            #9e6ae7 26%,
+                            #cc7bff 40%,
                             #fac0ff 61%,
                             #e1f8ff 78%,
-                            #b0ead6 84%,
-                            #8055bc 100%
+                            #bdfce6 84%,
+                            #a16ceb 100%
                         );
-                        &:active,
-                        :hover {
-                            background: linear-gradient(
-                                to top,
-                                #4726aa 0%,
-                                #c578ff 13%,
-                                #9e6ae7 26%,
-                                #cc7bff 40%,
-                                #fac0ff 61%,
-                                #e1f8ff 78%,
-                                #bdfce6 84%,
-                                #a16ceb 100%
-                            );
-                        }
+                    }
+                    div {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
                     }
                 }
             }
         }
         .ib {
             position: absolute;
-            width: 23.1rem;
-            height: 4.688rem;
+            width: 369px;
+            height: 75px;
             background: url(../images/input_b.png) no-repeat;
             background-size: 100%;
             margin-top: 55%;
@@ -216,7 +222,7 @@ html {
     }
     .bg {
         position: absolute;
-        background: url(../images/bg.png) no-repeat top center;
+        background: url(../images/bg.jpg) no-repeat top center;
         background-size: 1920px;
         width: 100%;
         height: 100%;
@@ -229,7 +235,7 @@ html {
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         display: block;
         position: absolute;
-        background: url(../images/bg.png) no-repeat top center;
+        background: url(../images/bg.jpg) no-repeat top center;
         background-size: 1920px;
         width: 100%;
         height: 100%;
