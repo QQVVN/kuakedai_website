@@ -203,10 +203,15 @@ html {
             animation: bounceInUp;
             animation-duration: 2s;
             @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
-                display: none;   
+                display: none;
             }
-            @media screen and (min--moz-device-pixel-ratio:0) {
+            @media screen and (min--moz-device-pixel-ratio: 0) {
                 display: block;
+            }
+            @media screen {
+                @media (min-width: 0px) {
+                    display: none;
+                }
             }
         }
     }
