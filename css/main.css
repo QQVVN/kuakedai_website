@@ -200,7 +200,6 @@ html {
   background: linear-gradient(to top, #4726aa 0%, #c578ff 13%, #9e6ae7 26%, #cc7bff 40%, #fac0ff 61%, #e1f8ff 78%, #bdfce6 84%, #a16ceb 100%);
 }
 .container .box .ib {
-  display: none;
   position: absolute;
   width: 23.1rem;
   height: 4.688rem;
@@ -210,6 +209,7 @@ html {
   right: 6.7%;
   animation: bounceInUp;
   animation-duration: 2s;
+  display: none;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .container .box .ib {
