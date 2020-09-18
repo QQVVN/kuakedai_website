@@ -88,6 +88,7 @@ html {
             animation: bounceInUp;
             animation-duration: 2s;
             .top {
+                width: 367px;
                 height: 64px;
                 margin-bottom: 14px;
                 .n,
@@ -133,7 +134,7 @@ html {
                 }
             }
             .bottom {
-                width: 100%;
+                width: 367px;
                 @include clearfix;
                 .l {
                     float: left;
@@ -154,6 +155,7 @@ html {
                     }
                 }
                 .r {
+                    width: 134px;
                     float: left;
                     position: relative;
                     font-size: 1.5rem;

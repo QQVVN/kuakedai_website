@@ -127,6 +127,7 @@ html {
   animation-duration: 2s;
 }
 .container .box .input .top {
+  width: 367px;
   height: 64px;
   margin-bottom: 14px;
 }
@@ -154,7 +155,7 @@ html {
   background: linear-gradient(to top, #fcedcd 0%, #e2bd8f 6%, #9e6a21 49%, #793a00 100%);
 }
 .container .box .input .bottom {
-  width: 100%;
+  width: 367px;
   *zoom: 1;
 }
 .container .box .input .bottom:after, .container .box .input .bottom:before {
@@ -183,6 +184,7 @@ html {
   padding-bottom: 0;
 }
 .container .box .input .bottom .r {
+  width: 134px;
   float: left;
   position: relative;
   font-size: 1.5rem;
