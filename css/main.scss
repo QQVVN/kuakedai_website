@@ -77,8 +77,8 @@ html {
             right: 3%;
             background: url(../images/logot.png) no-repeat;
             background-size: cover;
-            animation: bounceInUp;
-            animation-duration: 2s;
+            // animation: bounceInUp;
+            // animation-duration: 2s;
         }
         .input {
             -webkit-box-reflect: below 77px linear-gradient(transparent 65%, rgba(255, 255, 255, 0.3) 100%);
@@ -86,8 +86,8 @@ html {
             margin-top: 31%;
             right: 6.5%;
             width: 367px;
-            animation: bounceInUp;
-            animation-duration: 2s;
+            // animation: bounceInUp;
+            // animation-duration: 2s;
             .top {
                 width: 367px;
                 height: 64px;
@@ -198,8 +198,8 @@ html {
             background-size: 100%;
             margin-top: 55%;
             right: 6.7%;
-            animation: bounceInUp;
-            animation-duration: 2s;
+            // animation: bounceInUp;
+            // animation-duration: 2s;
             @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
                 display: block;
             }
