@@ -56,6 +56,7 @@ input {
   -webkit-appearance: none;
   border-radius: 0;
   border: 0;
+  padding: 0;
 }
 
 html {
@@ -179,8 +180,8 @@ html {
 .container .box .input .bottom .l input::placeholder {
   line-height: normal;
 }
-.container .box .input .bottom .l .t {
-  margin-bottom: 15px;
+.container .box .input .bottom .l .b {
+  margin-top: 15px;
 }
 .container .box .input .bottom .r {
   width: 130px;
