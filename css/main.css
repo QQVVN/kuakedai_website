@@ -55,7 +55,7 @@ input {
   line-height: normal;
   -webkit-appearance: none;
   border-radius: 0;
-  padding: 5px 10px;
+  border: 0;
 }
 
 html {
@@ -170,8 +170,9 @@ html {
 }
 .container .box .input .bottom .l input {
   display: block;
-  width: 198px;
-  height: 22px;
+  width: 203px;
+  height: 26px;
+  padding: 5px 10px;
   border-radius: 3px;
   outline: none;
 }
