@@ -181,7 +181,7 @@ html {
   line-height: normal;
 }
 .container .box .input .bottom .l .b {
-  margin-top: 15px;
+  margin: 15px 0 0 0;
 }
 .container .box .input .bottom .r {
   width: 130px;
