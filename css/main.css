@@ -118,7 +118,6 @@ html {
   background-size: cover;
 }
 .container .box .input {
-  -webkit-box-reflect: below 77px linear-gradient(transparent 65%, rgba(255, 255, 255, 0.3) 100%);
   position: absolute;
   margin-top: 31%;
   right: 6.5%;
@@ -212,17 +211,7 @@ html {
   background-size: 100%;
   margin-top: 55%;
   right: 6.7%;
-  display: none;
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .container .box .ib {
-    display: block;
-  }
-}
-@media screen and (min--moz-device-pixel-ratio: 0) {
-  .container .box .ib {
-    display: block;
-  }
+  display: block;
 }
 .container .bg {
   position: absolute;
