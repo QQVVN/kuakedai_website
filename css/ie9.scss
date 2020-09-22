@@ -1,0 +1,38 @@
+.container {
+    .box {
+        .input {
+            .top {
+                .n,
+                .o {
+                    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr= #e6c290, endColorstr=#834200);
+                    &:hover,
+                    &:active,
+                    &.active {
+                        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr= #793a00, endColorstr=#fcedcd);
+                    }
+                }
+            }
+            .bottom {
+                .r {
+                    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#fac0ff, endColorstr=#341c7f);
+                    &:active,
+                    &:hover {
+                        color: #fff;
+                        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#341c7f, endColorstr=#fac0ff);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.iebg {
+    display: block;
+    position: absolute;
+    background: url(../images/bg.jpg);
+    width: 1920px;
+    height: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -20;
+}
